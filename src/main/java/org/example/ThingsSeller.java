@@ -9,7 +9,7 @@ public class ThingsSeller {
 
     public ThingsSeller(){
         actualMoney = 0;
-        Items = new HashMap<String, Integer>();
+        Items = new HashMap<>();
         Items.put("forchetta", 1);
         Items.put("bicchiere", 3);
         Items.put("penna", 2);
